@@ -1,0 +1,33 @@
+<h2>Student Information</h2>
+
+<!--Interpolation-->
+<h5>Welcome, {{studentName}}!</h5>
+
+<!--Two-way binding-->
+<br>
+<p>Student name:
+  <input [(ngModel)]="studentName" [placeholder]="'Enter Student Name'"
+  [ngStyle]="{borderColor: studentName ?'green':'red'}">
+</p>
+<p [ngClass]="{'valid-name':studentName.length>3, 'invalid-name': studentName.length<=3}">Name must be more than 3 characters.</p>
+<p>Student Email:
+  <input [(ngModel)]="studentEmail" [placeholder]="'Enter Student Email'"
+  [ngStyle]="{borderColor: studentEmail ? 'green' : 'red'}">
+</p>
+<p [ngClass]="{'valid-name':studentEmail.endsWith('@gmail.com'), 'invalid-name': !studentEmail.endsWith('@gmail.com')}">Only Gmail is valid</p>
+
+<!--Attribute Directive:ngClass-->
+
+<button (click)="submitForm()">Submit</button>
+
+<!--Structural Directive: *ngIf-->
+<!-- <p *ngIf="submitted">Student submitted successfully!</p> -->
+<br>
+<br>
+<h6 *ngIf="ifStudentAvailable">Student Details</h6>
+<!--Structural Directive: *ngFor-->
+<ul>
+    @for (student of students; track $index) {
+         <li >{{student}}</li>
+    }
+</ul>
