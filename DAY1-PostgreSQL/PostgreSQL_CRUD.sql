@@ -80,6 +80,7 @@ DELETE FROM customer WHERE customer_id = 11; --delete rows of data
 SELECT first_name FROM customer; --select firstname
 SELECT first_name, last_name, email FROM customer; --select firstname, lastname and email
 SELECT * FROM customer; -- select all data
+SELECT * FROM orders; -- select all data
   
 --SORTING THE DATA:-
 SELECT first_name, last_name FROM customer ORDER BY first_name ASC; --sort data by firstname(ascending order)
