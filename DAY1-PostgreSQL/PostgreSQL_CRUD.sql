@@ -1,5 +1,6 @@
---customer table creation
+--CREATE OPERATION:-
 
+--customer table
 CREATE TABLE customer (
    customer_id SERIAL PRIMARY KEY,  
    first_name VARCHAR(100) NOT NULL,  
@@ -9,18 +10,7 @@ CREATE TABLE customer (
    updated_date TIMESTAMPTZ
 );
 
---add column
-ALTER TABLE customer ADD COLUMN isAvailable BOOLEAN;
-
---rename column and reset
-ALTER TABLE customer RENAME COLUMN email TO email_address; 
-ALTER TABLE customer RENAME COLUMN email_address TO email;
-
---rename table
-ALTER TABLE customer RENAME TO users;
-ALTER TABLE users RENAME TO customer;
-
---create table orders
+--order table
 CREATE TABLE orders (
     order_id SERIAL PRIMARY KEY,
     customer_id INTEGER NOT NULL REFERENCES customer(customer_id),
@@ -29,10 +19,10 @@ CREATE TABLE orders (
     order_amount DECIMAL(10,2) NOT NULL
 );
 
---insert values
-INSERT INTO customer(first_name, last_name, email, created_date, updated_date, isAvailable)
-VALUES ('Bansi', 'Sachade', '.bansi.sachade@tatvasoft.com', NOW(), NULL, true);
 
+--INSERT VALUES TO TABLE:-
+
+--customer data
 INSERT INTO customer (first_name, last_name, email, created_date, updated_date, isAvailable) VALUES
   ('John', 'Doe', 'johndoe@example.com', NOW(), NULL, true),
   ('Alice', 'Smith', 'alicesmith@example.com', NOW(), NULL, true),
@@ -49,7 +39,8 @@ INSERT INTO customer (first_name, last_name, email, created_date, updated_date, 
   ('JENNY', 'SMITH', 'jenny.smith@example.com', NOW(), NULL, false),
   ('Hiren', 'Patel', 'hirenpatel@example.com', NOW(), NULL, false);
 
-  INSERT INTO orders (customer_id, order_date, order_number, order_amount) VALUES
+--order data  
+INSERT INTO orders (customer_id, order_date, order_number, order_amount) VALUES
   (1, '2024-01-01', 'ORD001', 50.00),
   (2, '2024-01-01', 'ORD002', 35.75),
   (3, '2024-01-01', 'ORD003', 100.00),
@@ -69,66 +60,71 @@ INSERT INTO customer (first_name, last_name, email, created_date, updated_date, 
   (2, '2024-01-07', 'ORD017', 65.75),
   (2, '2024-01-10', 'ORD018', 75.50);
 
---queries
-SELECT first_name FROM customer; 
-SELECT first_name, last_name, email FROM customer;
-SELECT * FROM customer;
-  
---Order By  
-SELECT first_name, last_name FROM customer ORDER BY first_name ASC;
-SELECT first_name, last_name FROM customer ORDER BY last_name DESC;
-SELECT customer_id, first_name, last_name FROM customer ORDER BY first_name ASC, last_name DESC;
-  
---WHERE Clause 
-SELECT last_name, first_name FROM customer WHERE first_name = 'Hiren';
-SELECT customer_id, first_name, last_name FROM customer WHERE first_name = 'Hiren' AND last_name = 'Parejiya';
-SELECT customer_id, first_name, last_name FROM customer WHERE first_name IN ('John', 'David', 'James');
-SELECT first_name, last_name FROM customer WHERE first_name LIKE '%en%';  
-SELECT first_name, last_name FROM customer WHERE first_name ILIKE '%EN%'; 
-  
---Join Examples
-SELECT * FROM orders AS a INNER JOIN customer AS b ON a.customer_id = b.customer_id;
-SELECT * FROM customer AS a LEFT JOIN orders AS b ON a.customer_id = b.customer_id;
 
---Aggregation with GROUP BY
+--UPDATE TABLE AND DATA:-
+UPDATE customer
+SET first_name = 'meet', last_name = 'dudhat', email = 'meetdudhat@gmail.com'
+WHERE customer_id = 1;
+  
+ALTER TABLE customer ADD COLUMN isAvailable BOOLEAN; 	   --add column
+ALTER TABLE customer RENAME COLUMN email TO email_address; --rename column
+ALTER TABLE customer RENAME COLUMN email_address TO email; --rename column
+ALTER TABLE customer RENAME TO users; --rename table
+ALTER TABLE users RENAME TO customer; --rename table
+
+--DELETE DATA:-
+DELETE FROM customer WHERE customer_id = 11; --delete rows of data
+
+
+--SELECT DATA:-
+SELECT first_name FROM customer; --select firstname
+SELECT first_name, last_name, email FROM customer; --select firstname, lastname and email
+SELECT * FROM customer; -- select all data
+  
+--SORTING THE DATA:-
+SELECT first_name, last_name FROM customer ORDER BY first_name ASC; --sort data by firstname(ascending order)
+SELECT first_name, last_name FROM customer ORDER BY last_name DESC; --sort data by lastname(descending order)
+SELECT customer_id, first_name, last_name FROM customer ORDER BY first_name ASC, last_name DESC;--firstname by ascending and lastname by descending order
+  
+--DATA SELECTION WITH CONDITION AND PATTERNS:- 
+SELECT last_name, first_name FROM customer WHERE first_name = 'Hiren'; --where condition satisfied
+SELECT customer_id, first_name, last_name FROM customer WHERE first_name = 'Hiren' AND last_name = 'Parejiya';--use logical operator
+SELECT customer_id, first_name, last_name FROM customer WHERE first_name IN ('John', 'David', 'James'); --if firstname is any one of the list 
+SELECT first_name, last_name FROM customer WHERE first_name LIKE '%en%'; --check string pattern(case sensitive)
+SELECT first_name, last_name FROM customer WHERE first_name ILIKE '%EN%'; --check string pattern(case insensitive)
+  
+--COMBINE TABLE BY JOINS:-
+SELECT * FROM orders AS a INNER JOIN customer AS b ON a.customer_id = b.customer_id; --inner join(intersection of both table)
+SELECT * FROM customer AS a LEFT JOIN orders AS b ON a.customer_id = b.customer_id; -- left join(all data from customer and match data from order)
+
+--DATA AGGREGATION WITH GROUP BY:-
 SELECT c.customer_id, c.first_name, c.last_name, c.email,
-       COUNT(o.order_id) AS NoOrders,
-       SUM(o.order_amount) AS Total
+       COUNT(o.order_id) AS NoOrders,--count total number of orders
+       SUM(o.order_amount) AS Total --sum of amount of all orders
 FROM customer AS c
 INNER JOIN orders AS o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id;  
   
---GROUP BY with HAVING
+--GROUP BY WITH HAVING:-
 SELECT c.customer_id, c.first_name, c.last_name, c.email,
        COUNT(o.order_id) AS No_Orders,
        SUM(o.order_amount) AS Total
 FROM customer AS c
 INNER JOIN orders AS o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id
-HAVING COUNT(o.order_id) > 1;
+HAVING COUNT(o.order_id) > 1; --select data which satisfied given condition
 
---Subqueries
-
+--SUBQUERIES:-
 SELECT * FROM orders WHERE customer_id IN (
   SELECT customer_id FROM customer WHERE isAvailable = true
 );
 
- 
+--EXIST CLAUSE:-
 SELECT customer_id, first_name, last_name, email
 FROM customer
 WHERE EXISTS (
   SELECT * FROM orders WHERE orders.customer_id = customer.customer_id
 );
-
- 
-UPDATE customer
-SET first_name = 'bansi', last_name = 'sachade', email = 'bansi.sachade@tatvasoft.com'
-WHERE customer_id = 1;
-
- 
-DELETE FROM customer WHERE customer_id = 11;
-
-
 
  
    
