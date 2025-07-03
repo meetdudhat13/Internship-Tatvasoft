@@ -10,7 +10,7 @@ CREATE TABLE customer (
 );
 
 --add column
-ALTER TABLE customer ADD COLUMN active BOOLEAN;
+ALTER TABLE customer ADD COLUMN isAvailable BOOLEAN;
 
 --rename column and reset
 ALTER TABLE customer RENAME COLUMN email TO email_address; 
@@ -30,10 +30,10 @@ CREATE TABLE orders (
 );
 
 --insert values
-INSERT INTO customer(first_name, last_name, email, created_date, updated_date, active)
+INSERT INTO customer(first_name, last_name, email, created_date, updated_date, isAvailable)
 VALUES ('Bansi', 'Sachade', '.bansi.sachade@tatvasoft.com', NOW(), NULL, true);
 
-INSERT INTO customer (first_name, last_name, email, created_date, updated_date, active) VALUES
+INSERT INTO customer (first_name, last_name, email, created_date, updated_date, isAvailable) VALUES
   ('John', 'Doe', 'johndoe@example.com', NOW(), NULL, true),
   ('Alice', 'Smith', 'alicesmith@example.com', NOW(), NULL, true),
   ('Bob', 'Johnson', 'bjohnson@example.com', NOW(), NULL, true),
@@ -110,7 +110,7 @@ HAVING COUNT(o.order_id) > 1;
 --Subqueries
 
 SELECT * FROM orders WHERE customer_id IN (
-  SELECT customer_id FROM customer WHERE active = true
+  SELECT customer_id FROM customer WHERE isAvailable = true
 );
 
  
