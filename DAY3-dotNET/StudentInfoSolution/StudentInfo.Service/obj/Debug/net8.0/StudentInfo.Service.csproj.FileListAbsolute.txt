@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.deps.json
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.runtimeconfig.json
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.dll
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.pdb
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.DataAccess.dll
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.DataAccess.pdb
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.AssemblyInfo.cs
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentI.7CAD7C55.Up2Date
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.dll
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\refint\StudentInfo.Service.dll
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.pdb
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.genruntimeconfig.cache
+C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\ref\StudentInfo.Service.dll

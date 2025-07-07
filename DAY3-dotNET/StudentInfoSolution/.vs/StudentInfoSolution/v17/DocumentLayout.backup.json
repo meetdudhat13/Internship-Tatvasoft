@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|solutionrelative:studentinfo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo.dataaccess\\migrations\\20250704121851_student table \u0026 initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|solutionrelative:studentinfo.dataaccess\\migrations\\20250704121851_student table \u0026 initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|solutionrelative:studentinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo.dataaccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|solutionrelative:studentinfo.dataaccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 41,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250704121851_student table \u0026 initial migration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
+              "RelativeDocumentMoniker": "StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
+              "RelativeToolTip": "StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:18:51.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "StudentInfo\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentInfo\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAnwDgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:16:20.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentInfo\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\appsettings.json",
+              "RelativeToolTip": "StudentInfo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T12:16:04.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentInfo.DataAccess\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Models\\Student.cs",
+              "RelativeToolTip": "StudentInfo.DataAccess\\Models\\Student.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:13:40.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
