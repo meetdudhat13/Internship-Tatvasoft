@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\",
+  "WorkspaceRootPath": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|solutionrelative:studentinfo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo.dataaccess\\migrations\\20250704121851_student table \u0026 initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|solutionrelative:studentinfo.dataaccess\\migrations\\20250704121851_student table \u0026 initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|d:\\programme practice\\internshiptatvasoft\\day3-dotnet\\studentinfosolution\\studentinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|solutionrelative:studentinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|c:\\users\\hp\\source\\repos\\studentinfosolution\\studentinfo.dataaccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|d:\\programme practice\\internshiptatvasoft\\day3-dotnet\\studentinfosolution\\studentinfo.dataaccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|solutionrelative:studentinfo.dataaccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|d:\\programme practice\\internshiptatvasoft\\day3-dotnet\\studentinfosolution\\studentinfo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B67616-8A2F-4234-9D35-A18804B6BBC6}|StudentInfo\\StudentInfo.csproj|solutionrelative:studentinfo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|d:\\programme practice\\internshiptatvasoft\\day3-dotnet\\studentinfosolution\\studentinfo.dataaccess\\migrations\\20250704121851_student table \u0026 initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E118BDE-E54F-4DDE-9FD9-2BA18C9684B3}|StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj|solutionrelative:studentinfo.dataaccess\\migrations\\20250704121851_student table \u0026 initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 41,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,12 +57,20 @@
               "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "20250704121851_student table \u0026 initial migration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
+              "DocumentMoniker": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
               "RelativeDocumentMoniker": "StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
+              "ToolTip": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
               "RelativeToolTip": "StudentInfo.DataAccess\\Migrations\\20250704121851_student table \u0026 initial migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,40 +78,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "StudentInfo\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\Controllers\\StudentsController.cs*",
-              "RelativeToolTip": "StudentInfo\\Controllers\\StudentsController.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAWwGQAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentInfo\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T12:16:20.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\appsettings.json",
+              "DocumentMoniker": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo\\appsettings.json",
               "RelativeDocumentMoniker": "StudentInfo\\appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo\\appsettings.json",
+              "ToolTip": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo\\appsettings.json",
               "RelativeToolTip": "StudentInfo\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-04T12:16:04.997Z"
+              "WhenOpened": "2025-07-04T12:16:04.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Models\\Student.cs",
+              "DocumentMoniker": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo.DataAccess\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentInfo.DataAccess\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\Models\\Student.cs",
+              "ToolTip": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo.DataAccess\\Models\\Student.cs",
               "RelativeToolTip": "StudentInfo.DataAccess\\Models\\Student.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAkwBkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T12:13:40.708Z"
+              "WhenOpened": "2025-07-04T12:13:40.708Z",
+              "EditorCaption": ""
             }
           ]
         }

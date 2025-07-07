@@ -15,3 +15,21 @@ C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.
 C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.pdb
 C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.genruntimeconfig.cache
 C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\ref\StudentInfo.Service.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.deps.json
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.runtimeconfig.json
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.Service.pdb
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.DataAccess.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\bin\Debug\net8.0\StudentInfo.DataAccess.pdb
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.csproj.AssemblyReference.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.AssemblyInfoInputs.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.AssemblyInfo.cs
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.csproj.CoreCompileInputs.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.sourcelink.json
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentI.7CAD7C55.Up2Date
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\refint\StudentInfo.Service.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.pdb
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\StudentInfo.Service.genruntimeconfig.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.Service\obj\Debug\net8.0\ref\StudentInfo.Service.dll

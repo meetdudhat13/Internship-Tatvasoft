@@ -10,3 +10,16 @@ C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\ne
 C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\refint\StudentInfo.DataAccess.dll
 C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.pdb
 C:\Users\HP\source\repos\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\ref\StudentInfo.DataAccess.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\bin\Debug\net8.0\StudentInfo.DataAccess.deps.json
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\bin\Debug\net8.0\StudentInfo.DataAccess.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\bin\Debug\net8.0\StudentInfo.DataAccess.pdb
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.csproj.AssemblyReference.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.AssemblyInfoInputs.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.AssemblyInfo.cs
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.csproj.CoreCompileInputs.cache
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.sourcelink.json
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\refint\StudentInfo.DataAccess.dll
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\StudentInfo.DataAccess.pdb
+D:\programme practice\InternshipTatvasoft\DAY3-dotNET\StudentInfoSolution\StudentInfo.DataAccess\obj\Debug\net8.0\ref\StudentInfo.DataAccess.dll

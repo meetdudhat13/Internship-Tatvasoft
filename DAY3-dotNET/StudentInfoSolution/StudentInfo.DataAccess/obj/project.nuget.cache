@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ySr/utGdihg=",
+  "dgSpecHash": "bUmG2T99M5Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\StudentInfoSolution\\StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj",
+  "projectFilePath": "D:\\programme practice\\InternshipTatvasoft\\DAY3-dotNET\\StudentInfoSolution\\StudentInfo.DataAccess\\StudentInfo.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.6\\microsoft.entityframeworkcore.9.0.6.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.6\\microsoft.entityframeworkcore.abstractions.9.0.6.nupkg.sha512",
